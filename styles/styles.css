@@ -1,3 +1,55 @@
 h1 {
     color: red;
 }
+
+h1 {
+    color: red;
+}
+
+.page-header {
+    max-width: 1334px;
+    margin: 0 auto 80px;
+    padding: 20px;
+}
+
+.home__main-header {
+    max-width: 1334px;
+    margin: 0 auto 80px;
+    padding: 20px;
+}
+
+.home__offers {
+    max-width: 1334px;
+    margin: 0 auto 80px;
+    padding: 20px;
+}
+
+.home__about {
+    max-width: 1334px;
+    margin: 0 auto 80px;
+    padding: 20px;
+}
+
+.home__upcoming {
+    max-width: 1334px;
+    margin: 0 auto 80px;
+    padding: 20px;
+}
+
+.home__listing {
+    max-width: 1334px;
+    margin: 0 auto 80px;
+    padding: 20px;
+}
+
+.home_contacts {
+    max-width: 1334px;
+    margin: 0 auto 80px;
+    padding: 20px;
+}
+
+.page-footer {
+    max-width: 1334px;
+    margin: 0 auto;
+    padding: 20px;
+}
