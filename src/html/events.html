@@ -4,13 +4,13 @@
     <body class="body">
         @@include('blocks/page-header.html')
         <main class="main">
-            <article class="events">
-                <section class="listing event__listing">
+            <div class="events">
+                <section class="listing events__listing">
                     <h2 class="listing__section-tittle section-title">Мероприятия</h2>
                     <div class="listing__events-list">
-                        <!-- prettier-ignor -->
+                        <!-- prettier-ignore -->
                         @@loop('blocks/event-card.html', [
-                        {
+                        {   
                             "class": " listing__event-card",
                             "img": "assets/images/events/nirvana.jpg",
                             "alt": "nirvana", 
@@ -48,12 +48,25 @@
                         }
                         ])
                     </div>
-
                 </section>
-            </article>
+                <section class="events__services">
+                    <h2 class="events__section-title section-title section-title--sub">
+                        Дополнительные услуги
+                    </h2>
+
+                    <p class="events__section-description">
+                        Перед запуском проекта, мы подготавливаем подробную смету и 
+                        согласуем ее с клиентом. Убедившись, что все пожеланию учтены и мы 
+                        можем приступать к реализациии проекта, начинается сложная, но 
+                        интересная работа, результатом которой будет проведение вашего 
+                        мероприятия на высшем уровне.
+                    </p>
+
+                    @@include('blocks/table.html')
+                </section>
+            </div>
         </main>
-        <footer class="page-footer">
-            footer
-        </footer>
+        <footer class="page-footer"></footer>
+        @@include('blocks/event-pp.html')
     </body>
-    </html>
+</html>

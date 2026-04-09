@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="show-event-popup">
     @@include('blocks/head.html')
+    
     <body class="body">
         @@include('blocks/page-header.html')
         <main class="main">
@@ -10,6 +11,7 @@
              @@include('blocks/blog-listing.html', {"class": "home__listing"})
              </div>
         </main>
-        @@include('blocks/page-footer.html')
+        <footer class="page-footer"></footer>
+        @@include('blocks/event-pp.html')
     </body>
 </html>
